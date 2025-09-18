@@ -3,70 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kolam Renang Bintang Johor</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Registrasion Form</title>
 </head>
-<body bgcolor="a4b3ff">
-<table border="1" cellspacing="0">
-    <!--Membuat baris tabel pertama-->
-    <tr>
-        <td weith colspan="2"><img src="Kolam Renang.jpeg" alt="Bintang Johor" align="center" height="800" width="2000"></td>
-    </tr>
-    <tr>
-        <th style="background-color:white;" colspan="2" align="center">
-            <h1>Kolam Renang Bintang Johor</h1></th>
-    </tr>
-    c
-    <tr>
-        <td style="color:rgb(4, 20, 71)" rowspan="5" width="30%"><h2>Informasi Tentang Kolam Renang Bintang Johor</h2></td>
-    </tr>   
-    <tr>
-        <td><ul>
-            <li style="color:rgb(39, 11, 143)"><b>Alamat</b></li><p>Kolam renang Bintang Johor beralamat di Jl. Damai Dusun VII, Desa Tumpatan Nibung, Kec. Batang Kuis, Kab. Deli Serdang, Sumatera Utara</p>
-        </ul></td>
-    </tr>
-    <tr>
-        <td><ul>
-            <li style="color:rgb(39, 11, 143)"><b>Jam Operasional</b></li>
-            <p>Senin: 08.00-18.00</p>
-            <p>Selasa: 08.00-18.00</p>
-            <p>Rabu: 08.00-18.00</p>
-            <p>Kamis: 08.00-18.00</p>
-            <p>Jum'at: 08.00-18.00</p>
-            <p>Sabtu: 08.00-19.00</p>
-            <p>Minggu:08.00-19.00</p>
-            <p>Hari libur: 08.00-19.00</p>
-        </ul></td>
-    </tr>
-    <tr>
-        <td><ul>
-            <li style="color: rgb(39, 11, 143)"><b>Harga Tiket</b></li>
-            <p>Senin : Rp20.000/orang</p>
-            <p>Selasa: Rp20.000/orang</p>
-            <p>Rabu  : Rp20.000/orang</p>
-            <p>Kamis : Rp20.000/orang</p>
-            <p>Jum'at: Rp20.000/orang</p>
-            <p>Sabtu : Rp25.000/orang</p>
-            <p>Minggu: Rp25.000/orang</p>
-            <p>Libur nasional: Rp25.000/orang</p>
-        </ul></td>
-    </tr>
-    <tr>
-        <td><ul>
-            <li style="color: rgb(39, 11, 143)""><b>Fasiltas</b></li>
-                <p>Kolam Renang</p>
-                <p>Kamar mandi</p>
-                <p>Cafe</p>
-                <p>Taman</p>
-                <p>Kebun buah</p>
-        </ul></td>
-    </tr>
-    <!--membuat baris tabel kedua-->
-    <tr>
-        <td colspan="2" align="center" style="background-color:white;">
-            <i>Created by:<a href="https:www.instagram.com/dwicharima_?igsh=MXhkaHpqbDV4MmQ4ZA==">
-                Dwi Charima Husni</a></i></td>
-    </tr>
-</table>
+<table>
+<body bgcolor="428397">
+
+<h2 style="color:rgb(41, 211, 174)"><b>
+    <marquee direction="left">Mari Bergabung Bersama Kami</marquee><br>
+</b></h2>
+<form>
+    <table align="center" width="700" cellpadding="10" bgcolor="a5e3cd">
+        <tr>
+            <td colspan="2" align="center">
+            <h1>Form Pendaftaran</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>Nama :</td>
+            <td>
+                <input type="text" size="40"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin :</td>
+            <td>
+                <input type="radio" name="g"/>Perempuan
+                <input type="radio" name="g"/>Laki-laki
+            </td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td><input type="text" size="40"/></td>
+        </tr>
+         <tr>
+            <td>Usename :</td>
+            <td><input type="text" size="40"></td>
+         </tr>
+         <tr>
+            <td>Password :</td>
+            <td><input type="password" size="40"></td>
+         </tr>
+         <tr>
+            <td>Tanggal Lahir :</td>
+            <td>
+                <input type="date" size="10" />
+            </td>
+        </tr>
+         <tr>
+            <td>Nomor Telepon :</td>
+            <td>
+                <input type="text" size="2" value="+62"/>
+                <input type="text" size="20"/>
+            </td>
+        </tr>
+         <tr>
+            <td>Kategori Kelas :</td>
+            <td><select>
+                <option hidden>-------------Pilih Salah Satu-------------</option>
+                <option>Reguler Class</option>
+                <option>Private Class</option>
+                <option>Prestasi Class</option>
+            </select></td>
+         </tr>
+         <tr>
+            <td>Alamat :</td>
+            <td><textarea cols="40" rows="9"></textarea></td>
+        </tr>
+         <tr>
+            <td>Foto Profil :</td>
+            <td><input type="file"/></td>
+         </tr>
+         <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="submit"/>
+            </td>
+         </tr>
+        </table>
+</form>
+    
 </body>
-</html>
+</table>
 </html>
